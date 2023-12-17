@@ -3,9 +3,13 @@
     margin:0;
 }
 
+body{
+    background-color: var(--main-bg-color);
+}
+
 a {
     text-decoration:none;
-    color: #000000;
+    color: var(--text);
 }
 
 .mid{
@@ -19,6 +23,14 @@ a {
 .mid2{
     position: absolute;
     left: 48%;
+    top: 2550px;
+    width: 107px;
+    height: 109px;
+}
+
+.mid3{
+    position: absolute;
+    left: 48%;
     top: 1620px;
     width: 107px;
     height: 109px;
@@ -26,11 +38,12 @@ a {
 
 .space{
     height: 850px;
+    background-color: var(--main-bg-color);
 }
 
 header{
     display: flex;
-    background-color: #FFEF5B;
+    background-color: var(--main1);
     position: fixed;
     width:100%;
     z-index: 1;
@@ -39,7 +52,6 @@ header nav{
     position: fixed;
     left: 1280px;
 }
-
 
 .need{
     position: relative;
@@ -52,7 +64,7 @@ header p{
     width: 287px;
     height: 80px;
     left: 111px;
-    color: #7B00C6;
+    color: var(--text2);
     font-family: 'Montserrat Alternates';
     font-style: normal;
     font-weight: 400;
@@ -60,6 +72,7 @@ header p{
     line-height: 49px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .heady{
     position: absolute;
     width: 455px;
@@ -72,7 +85,32 @@ header p{
     font-weight: 400;
     font-size: 40px;
     line-height: 49px;
+    color: var(--text);
 }
+
+.heady1{
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 40%;
+    top: 370px;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: black;
+}
+
+.appol{
+    position: absolute;
+    top: 220px;
+    left: 15%;
+    width: 288px;
+    height: 298px;
+}
+
 .text{
     box-sizing: border-box;
 
@@ -82,13 +120,14 @@ header p{
     left: 336px;
     top: 218px;
 
-    background: #FFEF5B;
+    background: var(--main1);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 2px;
 
     padding-top: 9%;
     padding-left: 10%;
 }
+
 .p_text{ 
     padding: 1%;
     font-family: 'Cormorant Infant';
@@ -96,6 +135,7 @@ header p{
     font-weight: 400;
     font-size: 32px;
     line-height: 39px;
+    color: var(--text);
 }
 
 .img1{
@@ -174,6 +214,7 @@ main img{
     font-weight: 400;
     font-size: 40px;
     line-height: 49px;
+    color: var(--text);
 }
 
 .ban2{
@@ -200,21 +241,21 @@ main img{
     height: 98px;
     left: 700px;
     top: 1940px;
-
+    color: var(--text);
     font-family: 'Montserrat Alternates';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 49px;
 
-    background-color: #B04DFF;
-    border: 17px solid #B04DFF;
+    background-color: var(--border);
+    border: 17px solid var(--border);
 }
 
 .stick1{
     position: absolute;
-    width: 117px;
-    height: 119px;
+    width: 138px;
+    height: 148px;
     left: 5px;
     top: 1792px;
 }
@@ -241,6 +282,7 @@ main img{
 
 .sname{ 
     padding: 40px 0;
+    color: var(--text);
 }
 
 .star1{
@@ -298,6 +340,128 @@ main img{
     height: 130px;
 }
 
+
+
+.zagol2{
+    position: absolute;
+    width: 674px;
+    height: 49px;
+    left: 465px;
+    top: 2700px;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: var(--text);
+}
+
+.ban3{
+    position: absolute;
+    width: 543px;
+    height: 263px;
+    left: 65px;
+    top: 2800px;
+    border: 17px solid var(--border2);
+}
+
+.date2{
+    position: absolute;
+    width: 674px;
+    height: 98px;
+    left: 700px;
+    top: 3040px;
+    color: var(--text);
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+
+    background-color: var(--border2);
+    border: 17px solid var(--border2);
+}
+
+
+.icons_row_weapons{
+    position: absolute;
+    left: 850px;
+    top: 2700px;
+
+}
+
+.picP{
+    position: absolute;
+    left: 150px;
+    height: 130px;
+}
+
+.picS{
+    position: absolute;
+    left: 240px;
+    height: 130px;
+}
+
+.star_t{
+    position: absolute;
+    left: 940px;
+    top: 2830px;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    padding-left: 0%;
+}
+
+.swname{ 
+    padding: 40px 0;
+    color: var(--text);
+}
+
+
+.star3{
+    position: absolute;
+    height: 50px;
+    left: 880px;
+    top: 2870px;
+}
+
+
+.stick3{
+    position: absolute;
+    width: 138px;
+    height: 148px;
+    left: 5px;
+    top: 2720px;
+}
+
+.stick4{
+    position: absolute;
+    width: 178px;
+    height: 188px;
+    left: 1300px;
+    top: 3070px;
+}
+
+
+
+.fh:hover{
+    color:#b355c8;
+}
+.fh:active{
+    color:#6D48D7;
+}
+
+.fyt:hover{
+    color:#b355c8;
+}
+.fyt:active{
+    color:#6D48D7;
+}
+
 #move:hover{
     animation-name: ancle;
     animation-duration: 3s;
@@ -329,7 +493,7 @@ main img{
     @keyframes anim1 {
         100%{
             padding-left: 20px;
-            color:#4B0086;
+            color:#35C0CD;
         }
     }
 
@@ -363,46 +527,215 @@ main img{
             }
         }
 
-        .mid2:hover{
-            animation-name: anim5;
+        .logo{
+            width: 7%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            .logo{
+                width: 8%;
+            }
+
+        }
+
+        .logo:hover{
+            animation-name: animo;
             animation-duration: 2s;
-            animation-iteration-count: 1;
+            animation-iteration-count: infinite;
             
-            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-timing-function: linear;
             animation-fill-mode: forwards;
         }
-    
-        @keyframes anim5 {
-            50%{
-                border-radius: 180px;
-                border: 17px solid aquamarine;
-            }
+
+        @keyframes animo {
             100%{
-                background-color: rgb(127, 255, 212);
-                border-radius: 180px;
-                border: 17px solid aquamarine;
+                rotate: 360deg;
             }
         }
 
-        .mid:hover{
-            animation-name: anim6;
-            animation-duration: 2s;
-            animation-iteration-count: 1;
-            
-            animation-direction: alternate;
-            animation-timing-function: ease-in;
-            animation-fill-mode: forwards;
+        .down{
+            position: absolute;
+            left: 0;
+            top: 700;
+            width: 100%;
+            height: 500px;
+            background-color: var(--main1);
+            color: var(--text2);
+            font-family: 'Montserrat Alternates';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 49px;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
-    
-        @keyframes anim6 {
-            50%{
-                border-radius: 180px;
-                border: 17px solid rgb(235, 8, 8);
-            }
-            100%{
-                background-color: rgb(235, 8, 8);
-                right: 17px;
-                border-radius: 180px;
-                border: 17px solid rgb(235, 8, 8);
-            }
+
+        .foot{
+            position: absolute;
+            width: 169px;
+            height: 162px;
+            left: 13px;
+            top: 182px;
         }
+
+        .foot_h{
+            position: absolute;
+            width: 86px;
+            height: 86px;
+            left: 556px;
+            top: 100px;
+        }
+
+        .foot_yt{
+            position: absolute;
+            width: 86px;
+            height: 86px;
+            left: 556px;
+            top: 230px;
+        }
+
+        .kazu{
+            position: absolute;
+            width: 204px;
+            height: 204px;
+            left: 1300px;
+            top: 290px;
+        }
+        
+        .f{
+            position: absolute;
+            width: 272px;
+            height: 152px;
+            left: 201px;
+            top: 210px;
+            color: var(--text2);
+        }
+
+        .fh{
+            position: absolute;
+            width: 234px;
+            height: 52px;
+            left: 674px;
+            top: 120px;
+            color: var(--text2);
+        }
+
+        .fyt{
+            position: absolute;
+            width: 552px;
+            height: 52px;
+            left: 670px;
+            top: 250px;
+            color: var(--text2);
+        }
+
+        .rights{
+            position: absolute;
+            width: 401px;
+            height: 22px;
+            left: 25px;
+            top: 460px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+
+        :root{
+            --main-bg-color: #ffffff;
+            --main1:#FFEF5B;
+            --text:#000000;
+            --text2: #7B00C6;
+            --border: #B04DFF;
+            --border2:rgb(255, 190, 77);
+            --kartinka:url(images/moon.png);
+            --piemona:url(images/image 5.png)
+        }
+        
+        input{
+            display: none;
+        }
+        
+        label{
+            position: relative;
+            background-size:contain;
+            left: 1100px;
+            top: 15px;
+            width: 60px;
+            height: 60px;
+            background-image: var(--kartinka);
+        }
+
+        .piemona{
+            image-resolution: var(--piemona);
+
+        }
+        
+        input:checked~*{
+            --main-bg-color: #6D48D7;
+            --main1: #4B0082;
+            --text: #FFFACD;
+            --text2: #FFFACD;
+            --border: #4B0082;
+            --border2:#4B0082;
+            --kartinka: url(images/sun.png);
+            --piemona: url(images/Mona.png);
+        }
+        
+
+        @media (max-width: 650px) {
+        }
+        
+        button {
+            padding: 1em;
+            margin: 1.5em;
+            color: #4B0082;
+            background: #ffffff;
+            border-color: #4B0082;
+            border-width: 3px;
+        }
+        textarea{
+            color: #4B0082;
+            background: #ffffff;
+            border-color: #4B0082;
+            border-width: 3px;
+        }
+        
+        form {
+            display: flex;
+            padding: 180px;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .os{
+            position: absolute;
+            width: 552px;
+            height: 52px;
+            left: 674px;
+            top: 300px;
+            color: var(--text2);
+        }
+
+        .foot_os{
+            position: absolute;
+            width: 86px;
+            height: 86px;
+            left: 556px;
+            top: 350px;
+        }
+
+        .os:hover{
+            color:#b355c8;
+        }
+
+        .os:active{
+            color:#6D48D7;
+        }
+
+        .review{
+            height: 300px;
+        }
+        
